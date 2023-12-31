@@ -23,6 +23,7 @@ username: midhundevasia
         <p class="text-center">
             <a class="btn btn-primary btn-sm text-light" href="/projects">Projects</a>
             <a class="btn btn-primary btn-sm text-light" href="/blog">Blog</a>
+            <a class="btn btn-primary btn-sm text-light" href="/events/2024">Calendar 2024</a>
         </p>
     </div>
 </div>
