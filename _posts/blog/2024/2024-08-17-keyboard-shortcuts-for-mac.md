@@ -1,12 +1,10 @@
 ---
-
 layout: post  
 title: Keyboard Shortcuts for macOS  
 date: 2024-08-17 02:00:36 +0530  
 categories: blog  
 author: Midhun Devasia  
 tags: keyboard, shortcuts, macos, chrome, firefox, phpstorm, iterm2, vscode, webstorm
-
 ---
 
 # Keyboard Shortcuts for macOS
