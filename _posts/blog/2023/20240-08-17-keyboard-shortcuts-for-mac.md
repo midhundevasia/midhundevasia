@@ -7,4 +7,6 @@ author: Midhun Devasia
 tags: keybord, shortcuts, macos, chrome, firefox, phpstorm, iterm2, vscode, webstorm
 ---
 
-Keyboard
+# Keyboard Shortcuts for MacOS
+
+
