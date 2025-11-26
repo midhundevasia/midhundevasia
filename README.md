@@ -1,12 +1,9 @@
-<table border="0px"><tr>
-  <td width="80%" border="0">
-# <samp>Hi, I'm <a href="https://midhundev.asia" target="_blank">Midhun Devasia</a> 👋🏾</samp>
 
-**Software Writer & Open-Source Enthusiast**</td>
-<td align="right">
-<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="60%" style="border-radius: 12px"/></td>
-</tr>
-</table>
+# <samp>Hi, I'm <a href="https://midhundev.asia" target="_blank">Midhun Devasia</a> 👋🏾 <br>
+<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="20%" align="right">
+</samp>
+
+**Software Writer & Open-Source Enthusiast**
 
 
 🚀 Passionate about building clean, scalable, and thoughtful software.  
