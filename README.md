@@ -3,12 +3,25 @@
 <img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="20%" align="right">
 </samp>
 
-**Software Writer & Open-Source Enthusiast**
+### Software Writer & Open-Source Enthusiast
 
 
 🚀 Passionate about building clean, scalable, and thoughtful software.  
 🌿 A creativity-driven mind who also enjoys exploring art.  
-📚 Continuously learning, improving, and contributing to the tech community.
+📚 Continuously learning, improving, and contributing.  
+🎯 Always experimenting with new technologies.  
+
+<br>
+
+### 🛠 What I'm Crafting
+🔹 Fake SMTP Server
+
+<br>
+
+### 🌱 Skills in Bloom 
+📖 Python  
+📖 Data Engineering
+
 
 ### Find me around the web  
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/midhundevasia)
