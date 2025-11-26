@@ -1,7 +1,7 @@
 
-# <samp>Hi, I'm <a href="https://midhundev.asia" target="_blank">Midhun Devasia</a> 👋🏾 <br>
-<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="20%" align="right">
-</samp>
+<h1><samp>Hi, I'm <a href="https://midhundev.asia" target="_blank">Midhun Devasia</a> 👋🏾 </samp></h1>
+<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="15%" align="right">
+
 
 ### Software Writer & Open-Source Enthusiast
 
@@ -10,8 +10,7 @@
 🌿 A creativity-driven mind who also enjoys exploring art.  
 📚 Continuously learning, improving, and contributing.  
 🎯 Always experimenting with new technologies.  
-
-<br>
+<hr>
 
 ### 🛠 What I'm Crafting
 🔹 Fake SMTP Server
