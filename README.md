@@ -1,6 +1,4 @@
-<table border="0">
-<tr>
-<td width="65%">
+<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="10%" style="border-radius: 12px"/>
 
 # <samp>Hi, I'm <a href="https://midhundev.asia" target="_blank">Midhun Devasia</a> 👋🏾</samp>
 
@@ -16,11 +14,4 @@
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat&logo=Instagram&logoColor=white)](https://instagram.com/midhundevasia)
 [![Strava Badge](https://img.shields.io/badge/-Strava-FC4C02?style=flat&logo=strava&logoColor=white)](https://www.strava.com/athletes/19664066)
 
-</td>
-<td width="35%" align="center">
 
-<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="90%" style="border-radius: 12px;"/>
-
-</td>
-</tr>
-</table>
