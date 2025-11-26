@@ -1,8 +1,13 @@
-<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="10%" style="border-radius: 12px"/>
-
+<table border="0px"><tr>
+  <td width="80%" border="0">
 # <samp>Hi, I'm <a href="https://midhundev.asia" target="_blank">Midhun Devasia</a> 👋🏾</samp>
 
-**Software Writer & Open-Source Enthusiast**
+**Software Writer & Open-Source Enthusiast**</td>
+<td align="right">
+<img src="https://raw.githubusercontent.com/midhundevasia/midhundevasia/refs/heads/main/assets/images/profile.png" width="60%" style="border-radius: 12px"/></td>
+</tr>
+</table>
+
 
 🚀 Passionate about building clean, scalable, and thoughtful software.  
 🌿 A creativity-driven mind who also enjoys exploring art.  
