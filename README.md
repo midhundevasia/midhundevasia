@@ -16,8 +16,6 @@
 ### 🛠 What I'm Crafting
 🔹 Fake SMTP Server
 
-<br>
-
 ### 🌱 Skills in Bloom 
 📖 Python  
 📖 Data Engineering
