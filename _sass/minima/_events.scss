@@ -7,7 +7,7 @@
 .event {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 5px;
 }
 
@@ -24,19 +24,21 @@
     box-sizing: border-box;
     padding: 5px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 5px;
     margin: 2px;
     cursor: pointer;
     font-size: 12px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
 }
 
 .faded a {
-    color: #ddd;
+    color: #666;
 }
 
 .event-marker.faded {
-    background-color: #ddd;
+    background-color: #555;
 }
 
 .list-group-item {
@@ -52,7 +54,7 @@
 }
 
 .list-group-item.faded * {
-    color: #ddd;
+    color: #666;
 }
 
 .event-marker {
@@ -74,7 +76,7 @@ h3 {
 }
 
 #calendarAndEvents .calender-month {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #444;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }

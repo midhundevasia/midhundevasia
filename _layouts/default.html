@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
-  <body class="container">
+  <body>
     {%- include header.html -%}
-    <div class="row">
-      <sidebar class="col-12 col-md-2 text-center py-3 border-right">
-        <a href="/">
-        {% avatar midhundevasia size=150 %}</a>
-        <div class="pt-4">
-          {%- include social.html -%}
-        </div>
-      </sidebar>
-      <main  aria-label="Content" role="main" class="col-12 col-md-10 pl-4 pt-2">
-        {{ content }}
-      </main>
-    </div>
+
+    <!-- Main Content -->
+    <main aria-label="Content" role="main" class="container py-5">
+      {{ content }}
+    </main>
+
     {%- include footer.html -%}
   </body>
 </html>
