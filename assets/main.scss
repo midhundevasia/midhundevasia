@@ -480,23 +480,25 @@ hr {
 .calendar-month {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 4px;
+  gap: 8px;
   list-style: none;
-  padding: 0 30px;
+  padding: 0;
+  margin: 20px 0;
 }
 
 .calendar-day {
   background-color: #1a1a1a;
   border: 1px solid #333333;
   color: #c0c0c0;
-  padding: 0 30px;
+  padding: 0;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.9rem;
-  min-height: 50px;
-  border-radius: 2px;
+  font-size: 0.75rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
   
   &:hover {
     background-color: #222222;
@@ -507,9 +509,8 @@ hr {
     font-weight: bold;
     background-color: #0f0f0f;
     color: #00dd88;
-    padding: 12px 30px;
-    font-size: 0.9rem;
-    min-height: 50px;
+    padding: 0;
+    font-size: 0.65rem;
   }
   
   &.event-marker {
@@ -524,13 +525,58 @@ hr {
   }
 }
 
+@media (max-width: 768px) {
+  .calendar-month {
+    gap: 6px;
+  }
+  
+  .calendar-day {
+    width: 40px;
+    height: 40px;
+    font-size: 0.65rem;
+  }
+  
+  .calendar-day.day-name {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .calendar-month {
+    gap: 4px;
+  }
+  
+  .calendar-day {
+    width: 35px;
+    height: 35px;
+    font-size: 0.55rem;
+  }
+  
+  .calendar-day.day-name {
+    font-size: 0.5rem;
+  }
+}
+
 .event-item {
   color: #c0c0c0;
+  padding: 12px 0;
+  border-bottom: 1px solid #1a5c3a;
+  transition: all 0.3s ease;
+  
+  &:last-child {
+    border-bottom: none;
+  }
   
   &.upcoming-event a,
   &.current-day-event a {
     color: #ffdd00;
     font-weight: 600;
+    text-decoration: none;
+    
+    &:hover {
+      color: #00dd88;
+      text-decoration: underline;
+    }
   }
   
   &.faded {
@@ -540,9 +586,19 @@ hr {
 }
 
 .event-container {
-  background-color: #1a1a1a;
+  background-color: transparent;
   border-radius: 5px;
-  padding: 15px;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-top: 1px solid #1a5c3a;
+  
+  h3 {
+    color: #00dd88;
+    font-size: 1.1rem;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 }
 
 // ============================================
