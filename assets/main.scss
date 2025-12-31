@@ -97,8 +97,8 @@ header[role="banner"] {
     margin: 1rem 0 1.5rem 0;
     
     img {
-      width: 140px;
-      height: 140px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
       border: 3px solid #00dd88;
       transition: border-color 0.3s ease;
@@ -123,6 +123,15 @@ header[role="banner"] {
     gap: 15px;
     flex-wrap: wrap;
   }
+}
+
+// Landing page specific styles - remove header border and footer
+body.landing-page header[role="banner"] .container {
+  border-bottom: none;
+}
+
+body.landing-page footer[role="contentinfo"] {
+  display: none;
 }
 
 // Navigation
@@ -340,7 +349,7 @@ button, .btn {
 // Homepage hero section styles
 .home-hero {
   width: 100%;
-  min-height: 50vh;
+  min-height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -430,7 +439,7 @@ button, .btn {
 @media (max-width: 768px) {
   .home-hero {
     min-height: auto;
-    padding: 40px 20px;
+    padding: 0 10px 40px 10px;
   }
   
   .hero-title {
