@@ -144,6 +144,10 @@ document.addEventListener("DOMContentLoaded", function () {
             if (hasEvents(allEvents, date)) {
                 dayElement.classList.add("event-marker");
                 dayElement.title = "Event Date";
+                // Also add faded class to event markers if they're in the past
+                if (today.isAfter(dayjs().year(year).month(monthValue - 1).date(day), 'day')) {
+                    dayElement.classList.add("faded");
+                }
             }
 
             // dayElement.addEventListener("click", function () {
