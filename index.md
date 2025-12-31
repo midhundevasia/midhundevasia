@@ -11,20 +11,24 @@ hide_menu: true
     <div class="row justify-content-center">
         <div class="col-12 col-md-8">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm Midhun</h1>
-                <p class="hero-subtitle">Building elegant solutions with code</p>
+                <h1 class="hero-title">Hi, I'm</h1>
+                <h1 class="hero-title">Midhun Devasia</h1>
+                <p class="hero-subtitle">open source enthusiast</p>
                 <p class="hero-description">
-                    I am a computer science professional specializing in PHP and Go development, with a strong passion for open-source contribution. Beyond technology, I'm an avid cyclist and marathon runner who loves outdoor challenges. I also enjoy exploring creativity through various art forms. With a continuous drive to learn and evolve, I strive to build efficient, impactful solutions in everything I do.
+                    building robust systems with <strong>php</strong> & <strong>go</strong>. passionate about <a href="/projects">open-source</a> contribution. when not coding, you'll find me <a href="/marathon">running marathons</a> or <a href="/cycling">cycling adventures</a>. also exploring creativity through art. obsessed with efficiency, continuous learning, and creating meaningful impact.
                 </p>
                 <div class="action-buttons">
-                    <a class="btn btn-primary" href="/projects">
-                        <span>🚀 Projects</span>
+                    <a  href="/projects">
+                        <span>🚀 projects</span>
                     </a>
-                    <a class="btn btn-primary" href="/blog">
-                        <span>✍️ Blog</span>
+                    <a  href="/blog">
+                        <span>✍️ blog</span>
                     </a>
-                    <a class="btn btn-primary" href="/events/2026">
-                        <span>📅 Calendar 2026</span>
+                    <a href="/interests">
+                        <span>🎨 interests</span>
+                    </a>
+                    <a href="/events/2026">
+                        <span>📅 2026</span>
                     </a>
                 </div>
             </div>

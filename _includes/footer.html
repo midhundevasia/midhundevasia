@@ -1,12 +1,14 @@
-<footer class="container pt-2 text-muted border-top mb-2">
-    <div class="row">
-      <div class="col-12 text-center">
-          &copy; {{ 'now' | date: "%Y" }} &nbsp; 
-          {%- if site.author -%}
-            {{ site.author | escape }}
-          {%- else -%}
-            {{ site.title | escape }}
-          {%- endif -%}
-      </div>
+<footer class="site-footer" role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                &copy; {{ 'now' | date: "%Y" }} &nbsp; 
+                {%- if site.author -%}
+                  {{ site.author | escape }}
+                {%- else -%}
+                  {{ site.title | escape }}
+                {%- endif -%}
+            </div>
+        </div>
     </div>
 </footer>

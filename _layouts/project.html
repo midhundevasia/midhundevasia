@@ -1,0 +1,49 @@
+---
+layout: page
+---
+
+{% assign repo = site.data.github_repos | where: "name", page.project_name | first %}
+
+<div class="project-detail">
+  <div class="project-detail-header">
+    <h1>{{ page.project_name }}</h1>
+    <p class="project-detail-desc">{{ repo.desc }}</p>
+    
+    <div class="project-detail-meta">
+      {% if repo.language %}
+      <span class="meta-item">
+        <strong>Language:</strong> {{ repo.language }}
+      </span>
+      {% endif %}
+      <span class="meta-item">
+        <strong>Created:</strong> {{ repo.created_at }}
+      </span>
+      <span class="meta-item">
+        <strong>Updated:</strong> {{ repo.updated_at }}
+      </span>
+      {% if repo.stars > 0 %}
+      <span class="meta-item">
+        <strong>⭐ Stars:</strong> {{ repo.stars }}
+      </span>
+      {% endif %}
+    </div>
+    
+    <div class="project-detail-actions">
+      <a href="{{ repo.url }}" class="btn btn-primary" target="_blank">view on github</a>
+      <a href="/projects" class="btn btn-secondary">back to projects</a>
+    </div>
+  </div>
+
+  <div class="project-detail-content">
+    <div id="readme-content" class="readme-body">
+      {% if repo.readme_content and repo.readme_content != "" %}
+        {{ repo.readme_content | markdownify }}
+      {% else %}
+        <div style="text-align: center; padding: 40px; color: #808080;">
+          <p>No README found for this project.</p>
+          <p><a href="{{ repo.url }}" target="_blank" style="color: #00dd88;">View on GitHub</a></p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

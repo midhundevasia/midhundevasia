@@ -1,0 +1,209 @@
+---
+- name: wp-display-timezone
+  url: https://github.com/midhundevasia/wp-display-timezone
+  desc: 'Display Timezone is simple plug-in to display current time with timezone
+    in the upper right of your admin screen on every page. '
+  created_at: '2016-11-08'
+  updated_at: '2016-11-08'
+  language: PHP
+  stars: 0
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/wp-display-timezone/master/readme.txt
+  manual: true
+  readme_content: "=== Display Time(zone) ===\r\nContributors: midhund\r\nDonate Link:
+    https://www.paypal.me/midhundevasia/10\r\nTags: admin, timezone, timer, clock,
+    servertime\r\nTested up to: 4.6.1\r\nStable tag: 1.0.6\r\nLicense: GPLv2 or later\r\nLicense
+    URI: http://www.gnu.org/licenses/gpl-2.0.html\r\n\r\nDisplay Timezone is simple
+    plug-in to display current time with timezone in the upper right of your admin
+    screen on every page. \r\n\r\n== Description ==\r\n\r\n[Display Timezone](http://github.com/midhundevasia/wp-display-timezone/)
+    is simple plug-in to display current time with timezone in the upper right of
+    your admin screen on every page. It takes the values from the option Timezone,
+    Date Format, Time Format and starts the clock. There is no configuration page.
+    \r\n\r\n= When you going to use =\r\nIf your wordpress site is hosted at London
+    and you are from China, both time are diffrent. You get confused while schedule
+    the post and other events related to time. If you look at your machine its shows
+    your time, not the server time. Here you can use the plugin. ie The Plugin Shows
+    your server time, not the machine time or browser time.\r\n\r\n\r\n== Installation
+    ==\r\n\r\nInstallation is simple and should not take you more than 1 minutes.\r\n\r\n1.
+    Upload whole `display-timezone` folder to the `/wp-content/plugins/` directory\r\n2.
+    Activate the plugin through the 'Plugins' menu in WordPress\r\n\r\n\r\n== Screenshots
+    ==\r\n\r\n1. Screenshot Installation \r\n2. Screenshot General Settings View\r\n2.
+    Screenshot Display Time(zone) View on Admin page\r\n\r\n== Changelog ==\r\n\r\n=
+    1.0.4 =\r\n* Changed the position of display to compatibility for the versions
+    `WordPress 4.6.1` or greater, also compactable in all other version \r\n= 1.0.3
+    =\r\n* Added Clock Icon\r\n* Changed the position of display to compatibility
+    for the versions `WordPress 3.2` or greater, also compactable in all other version
+    \r\n= 1.0.2 =\r\n* Edit in readme.txt\r\n= 1.0.1 =\r\n* Fixed the `am & pm` bug.\r\n=
+    0.1 =\r\n* First release.\r\n"
+- name: midhundevasia
+  url: https://github.com/midhundevasia/midhundevasia
+  desc: Personal Blog
+  created_at: '2023-10-21'
+  updated_at: '2025-12-30'
+  language: SCSS
+  stars: 0
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/midhundevasia/main/README.md
+  readme_content: !binary |-
+    CjxoMT48c2FtcD5IaSwgSSdtIDxhIGhyZWY9Imh0dHBzOi8vbWlkaHVuZGV2LmFzaWEiIHRhcmdldD0iX2JsYW5rIj5NaWRodW4gRGV2YXNpYTwvYT4g8J+Ri/Cfj74gPC9zYW1wPjwvaDE+CjxpbWcgc3JjPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbWlkaHVuZGV2YXNpYS9taWRodW5kZXZhc2lhL3JlZnMvaGVhZHMvbWFpbi9hc3NldHMvaW1hZ2VzL3Byb2ZpbGUucG5nIiB3aWR0aD0iMTUlIiBhbGlnbj0icmlnaHQiPgoKCiMjIyBTb2Z0d2FyZSBXcml0ZXIgJiBPcGVuLVNvdXJjZSBFbnRodXNpYXN0CgoK8J+agCBQYXNzaW9uYXRlIGFib3V0IGJ1aWxkaW5nIGNsZWFuLCBzY2FsYWJsZSwgYW5kIHRob3VnaHRmdWwgc29mdHdhcmUuICAK8J+MvyBBIGNyZWF0aXZpdHktZHJpdmVuIG1pbmQgd2hvIGFsc28gZW5qb3lzIGV4cGxvcmluZyBhcnQuICAK8J+TmiBDb250aW51b3VzbHkgbGVhcm5pbmcsIGltcHJvdmluZywgYW5kIGNvbnRyaWJ1dGluZy4gIArwn46vIEFsd2F5cyBleHBlcmltZW50aW5nIHdpdGggbmV3IHRlY2hub2xvZ2llcy4gIAo8aHI+CgojIyMg4p2vIFdoYXQgSSdtIENyYWZ0aW5nCiAg4p6kIEZha2UgU01UUCBTZXJ2ZXIKCiMjIyDina8gU2tpbGxzIGluIEJsb29tCiAg4p6kIFB5dGhvbiAgCiAg4p6kIERhdGEgRW5naW5lZXJpbmcKCiMjIyDina8gV2hhdCBJIFdvcmsgV2l0aAoKPHRhYmxlPiA8dHI+IDx0aCBhbGlnbj0ibGVmdCI+TGFuZ3VhZ2VzPC90aD4gPHRkIGFsaWduPSJsZWZ0Ij4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL2dvL2dvLW9yaWdpbmFsLnN2ZyIgd2lkdGg9IjMwIi8+IDxpbWcgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvZGV2aWNvbnMvZGV2aWNvbi9pY29ucy9qYXZhc2NyaXB0L2phdmFzY3JpcHQtb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzAiLz4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL3BocC9waHAtb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzAiLz4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL3B5dGhvbi9weXRob24tb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzAiLz4gPC90ZD4gPC90cj4gPHRyPiA8dGggYWxpZ249ImxlZnQiPkZyYW1ld29ya3M8L3RoPiA8dGQgYWxpZ249ImxlZnQiPiA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2Rldmljb25zL2Rldmljb24vaWNvbnMvc3ltZm9ueS9zeW1mb255LW9yaWdpbmFsLnN2ZyIgd2lkdGg9IjMwIi8+IDxpbWcgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvZGV2aWNvbnMvZGV2aWNvbi9pY29ucy9sYXJhdmVsL2xhcmF2ZWwtb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzAiLz4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL2FuZ3VsYXJqcy9hbmd1bGFyanMtb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzAiLz4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL3JlYWN0L3JlYWN0LW9yaWdpbmFsLnN2ZyIgd2lkdGg9IjMwIi8+IDxpbWcgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvZGV2aWNvbnMvZGV2aWNvbi9pY29ucy93b3JkcHJlc3Mvd29yZHByZXNzLXBsYWluLnN2ZyIgd2lkdGg9IjMwIi8+IDxpbWcgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvZGV2aWNvbnMvZGV2aWNvbi9pY29ucy90eXBvMy90eXBvMy1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8L3RkPiA8L3RyPiA8dHI+IDx0aCBhbGlnbj0ibGVmdCI+RGV2T3BzICYgSW5mcmE8L3RoPiA8dGQgYWxpZ249ImxlZnQiPiA8aW1nIHNyYz0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rldmljb25zL2Rldmljb24vbWFzdGVyL2ljb25zL2F3cy9hd3Mtb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzUiLz4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL2t1YmVybmV0ZXMva3ViZXJuZXRlcy1wbGFpbi5zdmciIHdpZHRoPSIzMCIvPiA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2Rldmljb25zL2Rldmljb24vaWNvbnMvbmdpbngvbmdpbngtb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzAiLz4gPC90ZD4gPC90cj4gPHRyPiA8dGggYWxpZ249ImxlZnQiPkRhdGFiYXNlczwvdGg+IDx0ZCBhbGlnbj0ibGVmdCI+IDxpbWcgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvZGV2aWNvbnMvZGV2aWNvbi9pY29ucy9teXNxbC9teXNxbC1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2Rldmljb25zL2Rldmljb24vaWNvbnMvc3FsaXRlL3NxbGl0ZS1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8L3RkPiA8L3RyPiA8dHI+IDx0aCBhbGlnbj0ibGVmdCI+TWVzc2FnaW5nPC90aD4gPHRkIGFsaWduPSJsZWZ0Ij4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL3JhYmJpdG1xL3JhYmJpdG1xLW9yaWdpbmFsLnN2ZyIgd2lkdGg9IjMwIi8+IDwvdGQ+IDwvdHI+IDx0cj4gPHRoIGFsaWduPSJsZWZ0Ij5WZXJzaW9uIENvbnRyb2w8L3RoPiA8dGQgYWxpZ249ImxlZnQiPiA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2Rldmljb25zL2Rldmljb24vaWNvbnMvZ2l0L2dpdC1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2Rldmljb25zL2Rldmljb24vaWNvbnMvZ2l0aHViL2dpdGh1Yi1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2Rldmljb25zL2Rldmljb24vaWNvbnMvZ2l0bGFiL2dpdGxhYi1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8L3RkPiA8L3RyPiA8dHI+IDx0aCBhbGlnbj0ibGVmdCI+TW9uaXRvcmluZzwvdGg+IDx0ZCBhbGlnbj0ibGVmdCI+IDxpbWcgc3JjPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZGV2aWNvbnMvZGV2aWNvbi9tYXN0ZXIvaWNvbnMvbmV3cmVsaWMvbmV3cmVsaWMtb3JpZ2luYWwuc3ZnIiB3aWR0aD0iMzUiLz4gPGltZyBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9kZXZpY29ucy9kZXZpY29uL2ljb25zL2dyYWZhbmEvZ3JhZmFuYS1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2Rldmljb25zL2Rldmljb24vaWNvbnMva2liYW5hL2tpYmFuYS1vcmlnaW5hbC5zdmciIHdpZHRoPSIzMCIvPiA8L3RkPiA8L3RyPiA8L3RhYmxlPgoKIyMjIOKdryBGaW5kIG1lIGFyb3VuZCB0aGUgd2ViICAKWyFbTGlua2VkaW4gQmFkZ2VdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvLUxpbmtlZEluLTBlNzZhOD9zdHlsZT1mbGF0JmxvZ289TGlua2VkaW4mbG9nb0NvbG9yPXdoaXRlKV0oaHR0cHM6Ly9saW5rZWRpbi5jb20vaW4vbWlkaHVuZGV2YXNpYSkKWyFbV2Vic2l0ZSBCYWRnZV0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9XZWJzaXRlLTNiNTk5OD9zdHlsZT1mbGF0JmxvZ289Z29vZ2xlLWNocm9tZSZsb2dvQ29sb3I9d2hpdGUpXShodHRwczovL21pZGh1bmRldi5hc2lhKQpbIVtJbnN0YWdyYW0gQmFkZ2VdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvLUluc3RhZ3JhbS1lNDQwNWY/c3R5bGU9ZmxhdCZsb2dvPUluc3RhZ3JhbSZsb2dvQ29sb3I9d2hpdGUpXShodHRwczovL2luc3RhZ3JhbS5jb20vbWlkaHVuZGV2YXNpYSkKWyFbU3RyYXZhIEJhZGdlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlLy1TdHJhdmEtRkM0QzAyP3N0eWxlPWZsYXQmbG9nbz1zdHJhdmEmbG9nb0NvbG9yPXdoaXRlKV0oaHR0cHM6Ly93d3cuc3RyYXZhLmNvbS9hdGhsZXRlcy8xOTY2NDA2NikKCgo=
+- name: c3racing.in
+  url: https://github.com/midhundevasia/c3racing.in
+  desc: No description
+  created_at: '2025-04-21'
+  updated_at: '2025-11-29'
+  language: HTML
+  stars: 0
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/c3racing.in/main/README.md
+  readme_content: "# c3racing.in\n"
+- name: json-ast
+  url: https://github.com/midhundevasia/json-ast
+  desc: JSON to AST parser in PHP
+  created_at: '2021-04-25'
+  updated_at: '2025-05-12'
+  language: PHP
+  stars: 3
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/json-ast/main/README.md
+  readme_content: "# json-ast : JSON to AST parser in PHP\n\n[![Latest Stable Version](https://img.shields.io/packagist/v/midhundevasia/json-ast.svg?style=flat-square)](https://packagist.org/packages/midhundevasia/json-ast)\n[![Minimum
+    PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg?style=flat-square)](https://php.net/)\n[![Build
+    Status](https://travis-ci.com/midhundevasia/json-ast.svg?branch=master)](https://travis-ci.com/midhundevasia/json-ast)\n\n##
+    Install\n    $ composer require midhundevasia/json-ast\n    \n## Usage\n    <?php\n
+    \   use JsonAst\\Parser;\n    $parser = new Parser();\n    $parser->parse(\n        '{\"hello\"
+    : \"World\"}',\n        ['loc' => true, 'source' => null]\n    );\n\n\n## Tests\n
+    \   $ ./vendor/bin/phpunit --testdox tests\n\n## Todo\n - write more test cases\n
+    - code coverage\n \n## License\njson-ast is licensed under GNU General Public
+    License (GPLv3) - see the `LICENSE` file for details.\n\n## Credits\nInspired
+    from following repositories.\n  \n    https://github.com/vtrushin/json-to-ast\n
+    \   https://github.com/vtrushin/code-error-fragment\n    \n##### Development\n
+    \   $ vendor/bin/phpcbf src\n    $ vendor/bin/php-cs-fixer fix src\n"
+- name: muzilabproductions.com
+  url: https://github.com/midhundevasia/muzilabproductions.com
+  desc: No description
+  created_at: '2025-03-31'
+  updated_at: '2025-03-31'
+  language: Ruby
+  stars: 0
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/muzilabproductions.com/main/README.md
+  readme_content: 
+- name: typo3-serverclock
+  url: https://github.com/midhundevasia/typo3-serverclock
+  desc: A Clock which shows server time and timezone in backend (EXT:server_clock)
+  created_at: '2016-12-12'
+  updated_at: '2023-07-27'
+  language: PHP
+  stars: 2
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/typo3-serverclock/main/README.md
+  readme_content: "# ServerClock: Server Time and Timezone\n\nA Clock which shows
+    server time and timezone in backend. The extension is available on [TER](https://typo3.org/extensions/repository/view/server_clock),
+    you can install it from TYPO3 ExtensionManager or via composer. \n\n[![Latest
+    Stable Version](https://img.shields.io/packagist/v/midhundevasia/typo3-serverclock.svg?style=flat-square)](https://packagist.org/packages/midhundevasia/typo3-serverclock)\n[![Minimum
+    PHP Version](https://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg?style=flat-square)](https://php.net/)\n[![Build
+    Status](https://travis-ci.org/midhundevasia/typo3-serverclock.svg?branch=master)](https://travis-ci.org/midhundevasia/typo3-serverclock)\n\n\n##
+    Installation\n##### via ExtensionManager\nYou can find the latest version in the
+    TER(TYPO3 Extension Repository).\nGoto `Extensions` -> Choose `Get Extensions`
+    from the dropdown -> Search `Server Clock` -> Install\n\n##### via Manual Setup\nDownload
+    the latest file from the GitHub or TER and copy folder to the `typo3conf/ext/`\nThen
+    install it from the Extensions Module.\n\n##### via Composer \n\tcomposer require
+    \"typo3-ter/serverclock\"\n\n##### via Composer for developers\n\tcomposer require
+    \"midhundevasia/typo3-serverclock\" --no-scripts\n\n## Usage\nFor better understanding
+    read the [Documentation](https://github.com/midhundevasia/typo3-serverclock/wiki)\n\n##
+    Contributing\nIf you have a best practice code or feature, bugfix or translation
+    just `Fork` and Send a `Pull Request`.\n\n\n## Help\n* If you find any security
+    flaw just mail me (hello [at] midhundevasia.com)\n* You can report bugs [here](https://github.com/midhundevasia/typo3-serverclock/issues)\n\n##
+    Donate\nI would like to spend my time here, if this extension realy helps, you
+    are welcome to \ngive some support\n\n[![paypal](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/blue-rect-paypal-26px.png)](https://www.paypal.me/midhundevasia/)\n\n##
+    TODO List\n[wiki/To-Do-list](https://github.com/midhundevasia/typo3-serverclock/wiki/To-Do-list)\n\n##
+    ChangeLog\n[wiki/ChangeLog](https://github.com/midhundevasia/typo3-serverclock/wiki/ChangeLog)\n\n##
+    License\nServerClock is licensed under GNU General Public License (GPLv3) - see
+    the `LICENSE` file for details.\n\n\n## Screenshot\n![](https://raw.githubusercontent.com/midhundevasia/typo3-serverclock/master/Documentation/Images/Version6.png)\n![](https://raw.githubusercontent.com/midhundevasia/typo3-serverclock/master/Documentation/Images/Version7.png)\n![](https://raw.githubusercontent.com/midhundevasia/typo3-serverclock/master/Documentation/Images/Version8.png)\n"
+- name: jekyll-github-repos
+  url: https://github.com/midhundevasia/jekyll-github-repos
+  desc: Jekyll Plugin for List Github Repositories
+  created_at: '2023-07-23'
+  updated_at: '2023-07-25'
+  language: Ruby
+  stars: 1
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/jekyll-github-repos/main/README.md
+  readme_content: "# `jekyll-github-repos`: Jekyll Plugin for List Github Repositories
+    \n\nThe GitHub Repositories Jekyll Plugin (`jekyll-github-repos`) is a custom
+    Jekyll generator that fetches and lists GitHub repositories for a specified user.
+    It uses the Octokit gem to interact with the GitHub API and retrieve repository
+    data.\n\n## Installation\nAdd the gem to your Jekyll project's Gemfile:\n\n```ruby\ngem
+    'octokit'\ngem 'jekyll-github-repos', '~> 1.0'\n```\n\nThen, run `bundle install`
+    to install the required gems.\n\n## Configuration\nIn your Jekyll project's `_config.yml`,
+    add the following settings:\n\n```yaml\ngithub_repos:\n  username: your_github_username\n
+    \ access_token: your_github_access_token\n```\n\nReplace `your_github_username`
+    and `your_github_access_token` with your actual GitHub username and access token.
+    Ensure that the access token has the necessary permissions to access the repositories.\n\n##
+    Usage\nAfter configuring the plugin, the GitHub Repositories data will be available
+    in your Jekyll site's `site.data['github_repos']` variable. You can use it in
+    your Liquid templates to display the repositories.\n\nFor example, in your Liquid
+    template:\n\n```liquid\n{% for repo in site.data.github_repos %}\n  <h2><a href=\"{{
+    repo.url }}\">{{ repo.name }}</a></h2>\n  <p>{{ repo.desc }}</p>\n{% endfor %}\n```\n\n##
+    License\nThis project is licensed under the MIT License. See the [LICENSE](LICENSE)
+    file for details.\n\n## Contributing\nBug reports and pull requests are welcome
+    on GitHub at [github.com/midhundevasia/jekyll-github-repos](https://github.com/midhundevasia/jekyll-github-repos).
+    Please read our [Contributing Guide](CONTRIBUTING.md) for more information.\n\n##
+    About the Author\nThis plugin is developed and maintained by Your Name. You can
+    find more of my projects at [midhundev.asia](https://midhundev.asia/projects).\n\n##
+    Support\nFor questions, issues, or feature requests, please [open an issue](https://github.com/midhundevasia/jekyll-github-repos/issues).\n\n##
+    Acknowledgements\nSpecial thanks to the [Octokit](https://github.com/octokit/octokit.rb)
+    gem for providing an easy-to-use Ruby interface for the GitHub API.\n"
+- name: typo3-blogmaster
+  url: https://github.com/midhundevasia/typo3-blogmaster
+  desc: Blogmaster - Blog system for TYPO3 CMS. A simple extension to create blog
+    in TYPO3. The extension is available on TER, you can install it from TYPO3 ExtensionManager
+    or via composer. (EXT:blogmaster)
+  created_at: '2016-11-10'
+  updated_at: '2023-05-28'
+  language: PHP
+  stars: 4
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/typo3-blogmaster/main/README.md
+  readme_content: "# Blogmaster - Blog system for TYPO3 CMS\n\nA simple extension
+    to create blog in TYPO3. The extension is available on [TER](https://typo3.org/extensions/repository/view/blogmaster),
+    you can install it from TYPO3 ExtensionManager or via composer. \n\n[![Latest
+    Stable Version](https://img.shields.io/packagist/v/midhundevasia/typo3-blogmaster.svg?style=flat-square)](https://packagist.org/packages/midhundevasia/typo3-blogmaster)\n[![Minimum
+    PHP Version](https://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg?style=flat-square)](https://php.net/)\n[![Build
+    Status](https://travis-ci.org/midhundevasia/typo3-blogmaster.svg?branch=master)](https://travis-ci.org/midhundevasia/typo3-blogmaster)\n\nThe
+    extension includes the following features:\n* Post Listing\n* Archive\n* Category\n*
+    Tags\n* Feature Image\n* Search\n* Comments and Reply\n* Widgets\n* RSS (for Blog,
+    Comments, Single Post)\n* OpenGraph Protocol\n\nCheck [complete feature list](https://github.com/midhundevasia/typo3-blogmaster/wiki/)\n\n##
+    Installation\n##### via ExtensionManager\nYou can find the latest version in the
+    TER(TYPO3 Extension Repository).\nGoto `Extensions` -> Choose `Get Extensions`
+    from the dropdown -> Search `Blogmaster` -> Install\n\n##### via Manual Setup\nDownload
+    the latest file from the GitHub or TER and copy folder to the `typo3conf/ext/`\nThen
+    install it from the Extensions Module.\n\n##### via Composer \n\tcomposer require
+    \"typo3-ter/blogmaster\"\n\n##### via Composer for developers\n\tcomposer require
+    \"midhundevasia/typo3-blogmaster\" --no-scripts\n\n## Usage\nFor better understanding
+    read the [Documentation](https://github.com/midhundevasia/typo3-blogmaster/wiki)\n\n##
+    Contributing\nIf you have a best practice code or feature, bugfix or translation
+    just `Fork` and Send a `Pull Request`.\n\n\n## Help\n* If you find any security
+    flaw just mail me (hello [at] midhundevasia.com)\n* You can report bugs [here](https://github.com/midhundevasia/typo3-blogmaster/issues)\n\n##
+    Donate\nI would like to spend my time here, if this extension realy helps, you
+    are welcome to \ngive some support\n\n[![paypal](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/blue-rect-paypal-26px.png)](https://www.paypal.me/midhundevasia/)\n\n##
+    TODO List\n[wiki/To-Do-list](https://github.com/midhundevasia/typo3-blogmaster/wiki/To-Do-list)\n\n##
+    ChangeLog\n[wiki/ChangeLog](https://github.com/midhundevasia/typo3-blogmaster/wiki/ChangeLog)\n\n##
+    License\nBlogmaster is licensed under GNU General Public License (GPLv3) - see
+    the `LICENSE` file for details.\n\n## Credits\n#### Icons \n - https://thenounproject.com\n
+    - http://www.flaticon.com\n \n#### Libraries\n - Sizzlejs\n - TinyMCE\n\n## Screenshot\n![](https://raw.githubusercontent.com/midhundevasia/typo3-blogmaster/master/Documentation/Images/Frontend.HomeView.png)\n![](https://raw.githubusercontent.com/midhundevasia/typo3-blogmaster/master/Documentation/Images/Backend.PostEdit.png)\n"
+- name: wp-notify
+  url: https://github.com/midhundevasia/wp-notify
+  desc: WP-Notify is a notification plugin, this will help you to notify or alert
+    some informations/about latest posts/system maintenance time etc to your visitors.
+    The plugin have an admin area, from there you can choose what type of message
+    you want to show and which style you want to use. You can change the color and
+    display styles from the dropdown list. Three styles are there, StackOverFlow,
+    Safari Alert and Facebook Style, and three events are on load, on scroll and on
+    mouse move.
+  created_at: '2016-11-08'
+  updated_at: '2016-11-08'
+  language: JavaScript
+  stars: 0
+  forks: 0
+  readme_url: https://raw.githubusercontent.com/midhundevasia/wp-notify/main/README.md
+  readme_content: 
