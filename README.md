@@ -13,6 +13,7 @@
 <hr>
 
 ### ❯ What I'm Crafting
+  ➤ [FineMCP](https://github.com/finemcp/finemcp) - MCP Framework in Go  
   ➤ Fake SMTP Server
 
 ### ❯ Skills in Bloom
